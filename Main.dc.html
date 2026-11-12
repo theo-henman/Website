@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Idea Hero Podcast</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&amp;family=Newsreader:ital,wght@0,400;0,500;1,400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:inherit;text-decoration:none}
+a:focus-visible{outline:3px solid #F3EAD6;outline-offset:3px}
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 26px;border-radius:999px;font-family:Cinzel,Georgia,serif;font-weight:600;font-size:15px;letter-spacing:.05em;border:2px solid #D9A94A;box-sizing:border-box}
+.gold{background:#D9A94A;color:#17130E}
+.gold:hover{background:#E8BE6A}
+.line{color:#F3EAD6}
+.line:hover{background:rgba(217,169,74,.18)}
+.nav a:hover{color:#D9A94A}
+</style>
+</helmet>
+<div id="top" style="font-family:'Newsreader',Georgia,serif;color:#17130E;background:#F3EAD6">
+
+<header style="background:#17130E;color:#F3EAD6">
+<div style="max-width:1200px;margin:0 auto;padding:18px 32px;display:flex;flex-wrap:wrap;gap:12px 32px;align-items:center;justify-content:space-between">
+<a href="#top" style="font-family:Cinzel,Georgia,serif;font-weight:700;font-size:19px;letter-spacing:.14em">IDEA <span style="color:#D9A94A">HERO</span></a>
+<nav class="nav" style="display:flex;flex-wrap:wrap;gap:8px 32px;font-size:18px">
+<a href="#about">About</a><a href="#hosts">Hosts</a><a href="#listen">Listen</a>
+</nav>
+</div>
+</header>
+
+<section style="background:radial-gradient(circle at 74% 50%,rgba(217,169,74,.26),rgba(23,19,14,0) 56%),#17130E;color:#F3EAD6">
+<div style="max-width:1200px;margin:0 auto;padding:72px 32px 88px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:56px;align-items:center">
+<div>
+<p style="margin:0 0 24px;display:inline-block;padding:8px 18px;border:1px solid #D9A94A;border-radius:999px;font-family:Cinzel,Georgia,serif;font-size:14px;letter-spacing:.12em;color:#D9A94A">Launching soon</p>
+<h1 style="margin:0;font-family:Cinzel,Georgia,serif;font-weight:600;font-size:clamp(34px,5vw,64px);line-height:1.1">How ideas are formed, refined and turned into real impact.</h1>
+<p style="margin:28px 0 0;max-width:30em;font-size:clamp(19px,1.7vw,22px);line-height:1.55;color:#D8CDB1">A weekly podcast with business author David Wethey and creative guru Jon Leach.</p>
+<div style="margin-top:36px;display:flex;flex-wrap:wrap;gap:14px">
+<a class="btn gold" href="https://open.spotify.com/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M6.5 9.5c3.5-1 7.5-.7 11 1.2M7.3 12.6c3-.8 6-.5 8.7 1M8 15.6c2.4-.6 4.6-.3 6.6.8"></path></svg>Listen on Spotify</a>
+<a class="btn line" href="https://podcasts.apple.com/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="10" r="2"></circle><path d="M8.2 15.8a5.5 5.5 0 1 1 7.6 0M10 15h4l-.6 6h-2.8z"></path></svg>Listen on Apple Podcasts</a>
+</div>
+</div>
+<div style="display:flex;justify-content:center">
+<img src="./assets/6ea3efd959152f2b85d43ef0b6d1fa13.webp" alt="Idea Hero Podcast logo: a laurel-crowned figure holding a torch inside a Greek key border" style="width:100%;max-width:520px;height:auto;aspect-ratio:1/1;border-radius:50%;box-shadow:0 30px 80px rgba(0,0,0,.55),0 0 0 1px rgba(217,169,74,.45)">
+</div>
+</div>
+</section>
+
+<svg aria-hidden="true" width="100%" height="24" style="display:block;background:#17130E"><defs><pattern id="gk" width="32" height="24" patternUnits="userSpaceOnUse"><path d="M0 20H32M28 20V4H8V16H20V10H14" fill="none" stroke="#B8862B" stroke-width="2"></path></pattern></defs><rect width="100%" height="24" fill="url(#gk)"></rect></svg>
+
+<section id="about" style="padding:96px 32px 88px">
+<div style="max-width:880px;margin:0 auto">
+<p style="margin:0;font-size:clamp(25px,3vw,38px);line-height:1.38">We are living in a world where problem-solving, critical thinking, and creativity are essential skills for the future of work.</p>
+<p style="margin:32px 0 0;max-width:36em;font-size:clamp(19px,1.7vw,22px);line-height:1.65;color:#4A4132">Hosted by leading business author David Wethey and creative guru Jon Leach, this weekly podcast explores how ideas are formed, refined, and transformed into real impact.</p>
+<ul style="list-style:none;margin:64px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:24px 32px">
+<li style="border-top:2px solid #B8862B;padding-top:16px;font-family:Cinzel,Georgia,serif;font-weight:600;font-size:22px">Problem-solving</li>
+<li style="border-top:2px solid #B8862B;padding-top:16px;font-family:Cinzel,Georgia,serif;font-weight:600;font-size:22px">Critical thinking</li>
+<li style="border-top:2px solid #B8862B;padding-top:16px;font-family:Cinzel,Georgia,serif;font-weight:600;font-size:22px">Creativity</li>
+</ul>
+</div>
+</section>
+
+<section id="hosts" style="background:#EBDFC3;padding:88px 32px 96px">
+<div style="max-width:1100px;margin:0 auto">
+<h2 style="margin:0 0 48px;font-family:Cinzel,Georgia,serif;font-weight:600;font-size:clamp(28px,3.4vw,40px)">Your hosts</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:40px 32px">
+<article style="display:flex;flex-wrap:wrap;align-items:center;gap:24px 28px">
+<div aria-hidden="true" style="width:120px;height:120px;flex:none;box-sizing:border-box;border:2px solid #B8862B;border-radius:50%;background:#F3EAD6;display:flex;align-items:center;justify-content:center;font-family:Cinzel,Georgia,serif;font-weight:600;font-size:34px;color:#8A5E0E">DW</div>
+<div><h3 style="margin:0;font-family:Cinzel,Georgia,serif;font-weight:600;font-size:26px">David Wethey</h3><p style="margin:8px 0 0;font-size:21px;color:#4A4132">Leading business author</p></div>
+</article>
+<article style="display:flex;flex-wrap:wrap;align-items:center;gap:24px 28px">
+<div aria-hidden="true" style="width:120px;height:120px;flex:none;box-sizing:border-box;border:2px solid #B8862B;border-radius:50%;background:#F3EAD6;display:flex;align-items:center;justify-content:center;font-family:Cinzel,Georgia,serif;font-weight:600;font-size:34px;color:#8A5E0E">JL</div>
+<div><h3 style="margin:0;font-family:Cinzel,Georgia,serif;font-weight:600;font-size:26px">Jon Leach</h3><p style="margin:8px 0 0;font-size:21px;color:#4A4132">Creative guru</p></div>
+</article>
+</div>
+</div>
+</section>
+
+<section id="listen" style="background:#17130E;color:#F3EAD6;padding:96px 32px;text-align:center">
+<div style="max-width:760px;margin:0 auto">
+<h2 style="margin:0;font-family:Cinzel,Georgia,serif;font-weight:600;font-size:clamp(28px,3.6vw,44px);line-height:1.15">Be there from the first episode</h2>
+<p style="margin:20px auto 0;max-width:30em;font-size:clamp(19px,1.7vw,22px);line-height:1.55;color:#D8CDB1">Idea Hero is launching soon. Follow the show wherever you listen.</p>
+<div style="margin-top:36px;display:flex;flex-wrap:wrap;justify-content:center;gap:14px">
+<a class="btn gold" href="https://open.spotify.com/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M6.5 9.5c3.5-1 7.5-.7 11 1.2M7.3 12.6c3-.8 6-.5 8.7 1M8 15.6c2.4-.6 4.6-.3 6.6.8"></path></svg>Spotify</a>
+<a class="btn gold" href="https://podcasts.apple.com/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="10" r="2"></circle><path d="M8.2 15.8a5.5 5.5 0 1 1 7.6 0M10 15h4l-.6 6h-2.8z"></path></svg>Apple Podcasts</a>
+</div>
+<div style="margin-top:14px;display:flex;flex-wrap:wrap;justify-content:center;gap:14px">
+<a class="btn line" href="https://www.instagram.com/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"></circle></svg>Instagram</a>
+<a class="btn line" href="https://www.linkedin.com/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"></rect><path d="M8 10.5V16M8 7.8v.1M12 16v-5.5M12 12.5c0-1.2 1-2 2.2-2S16 11.3 16 12.5V16"></path></svg>LinkedIn</a>
+</div>
+</div>
+</section>
+
+<footer style="background:#17130E;color:#B9AE92;border-top:1px solid rgba(217,169,74,.3);padding:28px 32px;text-align:center;font-size:16px">© 2026 Idea Hero Podcast</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2400}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>
